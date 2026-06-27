@@ -8,8 +8,8 @@ A live system that ingests articles from three RSS feeds, groups related article
 
 | Component | URL |
 |-----------|-----|
-| Frontend  | `https://news-pulse.vercel.app` *(replace after deploy)* |
-| Backend API | `https://news-pulse-api.onrender.com` *(replace after deploy)* |
+| Frontend  | `https://news-pulse-chi-ruddy.vercel.app`  |
+| Backend API | `https://news-pulse-api.onrender.com` |
 
 ---
 
