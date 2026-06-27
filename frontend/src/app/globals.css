@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #0D0F14;
+    color: #F7F6F2;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track { background: #0D0F14; }
+  ::-webkit-scrollbar-thumb { background: #2A2D35; border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: #E8FF47; }
+}
+
+@layer components {
+  .source-badge-bbc     { @apply bg-[#C8102E]/20 text-[#ff4d6a] border border-[#C8102E]/30; }
+  .source-badge-npr     { @apply bg-[#3E86C1]/20 text-[#6ab4f5] border border-[#3E86C1]/30; }
+  .source-badge-reuters { @apply bg-[#FF6900]/20 text-[#ffa05a] border border-[#FF6900]/30; }
+  .source-badge-default { @apply bg-white/10 text-white/60 border border-white/20; }
+}
